@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 </head>
 <body>
-	<header class="navbar-inverse">
+	<header class="navbar-inverse" role="banner">
 		<div class="container">
 			<nav role="navigation">
 			  <div class="container-fluid">
@@ -50,11 +50,44 @@
 			</nav>
 		</div>
 	</header>
+
 	<div class="container">
 		<div class="row">
-			<div class="darkBG col-sm-6 col-xs-12">test</div>
-			<div class="darkerBG col-sm-3 col-xs-6">test2</div>
-			<div class="darkestBG col-sm-3 col-xs-6">test3</div>
+			<div class="col-sm-6 col-xs-12">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						Widget 1
+					</div>
+					<div class="panel-body">
+						<a href="#" class="btn btn-primary">
+							Hacer algo
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-xs-6">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						Widget 2
+					</div>
+					<div class="panel-body">
+						Texto negro, 
+						<span class="text-success">
+							Texto exito
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-xs-6">
+				<div class="panel panel-danger">
+					<div class="panel-heading">
+						Widget 3
+					</div>
+					<div class="panel-body text-danger">
+						Panel Content
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<!-- Latest compiled and minified JavaScript -->
